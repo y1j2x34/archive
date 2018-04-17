@@ -1,0 +1,9 @@
+language: node_js
+dist: 'dist'
+sudo: false
+node_js:
+    - "9"
+    - "8"
+    - "7"
+after_success:
+    -npm run codecov

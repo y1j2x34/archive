@@ -1,0 +1,6 @@
+/src
+/bin
+.editorconfig
+.eslintignore
+.eslintrc
+.travis.yml
