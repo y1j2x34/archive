@@ -5,7 +5,5 @@ glob('dist/**/*.*', function(err, matches) {
     matches.forEach(function(filepath) {
         fs.unlinkSync(filepath);
     });
-    if (fs.existsSync('dist/')) {
-        fs.rmdirSync('dist/');
-    }
+    fs.rmdirSync('dist/');
 });
